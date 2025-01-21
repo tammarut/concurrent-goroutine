@@ -38,5 +38,5 @@ func main() {
 	// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 	// Solution 7: Library errgroup
 	// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-	solution7.LimitGoroutinesWithLibrarySemaphore()
+	solution7.UseLibraryErrgroup()
 }

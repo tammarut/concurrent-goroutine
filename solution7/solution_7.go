@@ -9,7 +9,7 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-func LimitGoroutinesWithLibrarySemaphore() {
+func UseLibraryErrgroup() {
 	g, ctx := errgroup.WithContext(context.Background())
 
 	myUrls := []string{"https://api.jikan.moe/v4/random/users", "https://api.jikan.moe/v4/random/anime", "https://api.jikan.moe/v4/random/manga"}
